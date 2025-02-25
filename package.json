@@ -1,5 +1,5 @@
 {
-  "name": "meal-app",
+  "name": "chow-time",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {

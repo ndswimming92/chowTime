@@ -1,3 +1,0 @@
-function greeting(word: string) {
-   
-}
