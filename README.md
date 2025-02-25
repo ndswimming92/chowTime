@@ -1,4 +1,4 @@
-# Chow TIme
+# Chow Time
 A meal tracker that helps decide what's for dinner. First iteration will be through the terminal and further enhanced from there.
 
 # Requirements
