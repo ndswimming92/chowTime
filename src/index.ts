@@ -1,5 +1,6 @@
-function hello() {
- console.log("Hello World!")
-}
+console.log("Current directory:", process.cwd());
 
-hello();
+const filePath = `${import.meta.dir}/data/meals.json`;
+const meals = await Bun.file(filePath).json();
+
+console.log("Meals:", meals);
