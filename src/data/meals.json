@@ -1,95 +1,88 @@
 [
-    {
-      "id": 1,
-      "name": "Spaghetti Carbonara",
-      "mealNumber": 101,
-      "category": "Dinner",
-      "ingredients": [
-        "Spaghetti",
-        "Eggs",
-        "Pancetta",
-        "Parmesan Cheese",
-        "Black Pepper"
-      ],
-      "prepTime": 10,
-      "cookTime": 15,
-      "servings": 2,
-      "prepInstructions": "Boil water and cook spaghetti.",
-      "cookingInstructions": "Mix eggs and cheese, add pancetta, and combine."
-    },
-    {
-      "id": 2,
-      "name": "Chicken Salad",
-      "mealNumber": 102,
-      "category": "Lunch",
-      "ingredients": [
-        "Chicken Breast",
-        "Lettuce",
-        "Tomatoes",
-        "Cucumber",
-        "Salad Dressing"
-      ],
-      "prepTime": 15,
-      "cookTime": 10,
-      "servings": 1,
-      "prepInstructions": "Chop vegetables and cook chicken.",
-      "cookingInstructions": "Mix everything and serve."
-    },
-    {
-      "id": 3,
-      "name": "Pancakes",
-      "mealNumber": 103,
-      "category": "Breakfast",
-      "ingredients": [
-        "Flour",
-        "Eggs",
-        "Milk",
-        "Baking Powder",
-        "Sugar",
-        "Butter"
-      ],
-      "prepTime": 5,
-      "cookTime": 10,
-      "servings": 3,
-      "prepInstructions": "Mix ingredients into a batter.",
-      "cookingInstructions": "Cook on a pan until golden brown."
-    },
-    {
-      "id": 4,
-      "name": "Beef Tacos",
-      "mealNumber": 104,
-      "category": "Dinner",
-      "ingredients": [
-        "Ground Beef",
-        "Taco Shells",
-        "Lettuce",
-        "Cheese",
-        "Tomatoes",
-        "Sour Cream"
-      ],
-      "prepTime": 10,
-      "cookTime": 15,
-      "servings": 4,
-      "prepInstructions": "Chop vegetables and cook beef.",
-      "cookingInstructions": "Assemble tacos and serve."
-    },
-    {
-      "id": 5,
-      "name": "Fruit Smoothie",
-      "mealNumber": 105,
-      "category": "Snack",
-      "ingredients": [
-        "Banana",
-        "Strawberries",
-        "Milk",
-        "Honey",
-        "Ice"
-      ],
-      "prepTime": 5,
-      "cookTime": 2,
-      "servings": 1,
-      "prepInstructions": "Peel and slice fruit.",
-      "cookingInstructions": "Blend all ingredients until smooth."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Spaghetti Carbonara",
+    "mealNumber": 101,
+    "category": "Dinner",
+    "ingredients": [
+      "Spaghetti",
+      "Eggs",
+      "Pancetta",
+      "Parmesan Cheese",
+      "Black Pepper"
+    ],
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 2,
+    "prepInstructions": "Boil water and cook spaghetti.",
+    "cookingInstructions": "Mix eggs and cheese, add pancetta, and combine."
+  },
+  {
+    "id": 2,
+    "name": "Chicken Salad",
+    "mealNumber": 102,
+    "category": "Lunch",
+    "ingredients": [
+      "Chicken Breast",
+      "Lettuce",
+      "Tomatoes",
+      "Cucumber",
+      "Salad Dressing"
+    ],
+    "prepTime": 15,
+    "cookTime": 10,
+    "servings": 1,
+    "prepInstructions": "Chop vegetables and cook chicken.",
+    "cookingInstructions": "Mix everything and serve."
+  },
+  {
+    "id": 3,
+    "name": "Pancakes",
+    "mealNumber": 103,
+    "category": "Breakfast",
+    "ingredients": [
+      "Flour",
+      "Eggs",
+      "Milk",
+      "Baking Powder",
+      "Sugar",
+      "Butter"
+    ],
+    "prepTime": 5,
+    "cookTime": 10,
+    "servings": 3,
+    "prepInstructions": "Mix ingredients into a batter.",
+    "cookingInstructions": "Cook on a pan until golden brown."
+  },
+  {
+    "id": 4,
+    "name": "Beef Tacos",
+    "mealNumber": 104,
+    "category": "Dinner",
+    "ingredients": [
+      "Ground Beef",
+      "Taco Shells",
+      "Lettuce",
+      "Cheese",
+      "Tomatoes",
+      "Sour Cream"
+    ],
+    "prepTime": 10,
+    "cookTime": 15,
+    "servings": 4,
+    "prepInstructions": "Chop vegetables and cook beef.",
+    "cookingInstructions": "Assemble tacos and serve."
+  },
+  {
+    "id": 5,
+    "name": "Fruit Smoothie",
+    "mealNumber": 105,
+    "category": "Snack",
+    "ingredients": ["Banana", "Strawberries", "Milk", "Honey", "Ice"],
+    "prepTime": 5,
+    "cookTime": 2,
+    "servings": 1,
+    "prepInstructions": "Peel and slice fruit.",
+    "cookingInstructions": "Blend all ingredients until smooth."
+  }
+]

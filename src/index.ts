@@ -1,6 +1,6 @@
-console.log("Current directory:", process.cwd());
-
-const filePath = `${import.meta.dir}/data/meals.json`;
-const meals = await Bun.file(filePath).json();
-
-console.log("Meals:", meals);
+import { getFormattedMeals } from './services/mealService'
+;(async () => {
+  const formattedMeals = await getFormattedMeals()
+  console.log('\n All Meals:\n')
+  console.log(formattedMeals)
+})()

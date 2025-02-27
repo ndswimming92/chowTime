@@ -1,4 +1,8 @@
-const filePath = `${import.meta.dir}/data/meals.json`;
-const meals = await Bun.file(filePath).json();
+import type { BunFile } from 'bun'
 
-console.log("Meals:", meals);
+export async function readMealsJson(): Promise<any[]> {
+  const filePath = `${import.meta.dir}/../data/meals.json`
+  const file: BunFile = Bun.file(filePath)
+  console.log('File', file)
+  return await file.json()
+}
