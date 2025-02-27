@@ -3,9 +3,23 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "prettier": "^3.5.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+"prettier": {
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "printWidth": 80
+},
+"scripts": {
+  "format": "prettier --write ."
+},
+"lint-staged": {
+  "**/*.{js,ts,jsx,tsx,json,md}": "prettier --write"
+}
+
 }
