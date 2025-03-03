@@ -24,7 +24,7 @@ function showMenu() {
 function askForChoice() {
   rl.question('\nEnter your choice (1-5): ', (choice) => {
     handleMenuChoice(choice);
-    askForChoice();
+    // askForChoice();
   });
 }
 
