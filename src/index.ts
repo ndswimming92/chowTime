@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 });
 
 // Function to display the menu
-function showMenu() {
+export function showMenu() {
   console.clear();
   console.log('\x1b[1m\x1b[94m    Welcome to ChowTime!\x1b[0m');
   console.log('\n===== Meal App Menu =====');
