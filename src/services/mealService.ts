@@ -1,15 +1,16 @@
 import { readMealsJson } from '../utils/fileHandler';
+import type { Meal } from '../types/meal';
 
 export async function getFormattedMeals(): Promise<string> {
   const meals = await readMealsJson();
   return meals
     .map(
-      (meal) =>
-        `${meal.name} (${meal.category})
-      - Prep Time: ${meal.prepTime} mins
-      - Cook Time: ${meal.cookTime} mins
-      - Ingredients: ${meal.ingredients.join(', ')}
-      - Servings: ${meal.servings}
+      (Meal) =>
+        `${Meal.name} (${Meal.category})
+      - Prep Time: ${Meal.prepTime} mins
+      - Cook Time: ${Meal.cookTime} mins
+      - Ingredients: ${Meal.ingredients.join(', ')}
+      - Servings: ${Meal.servings}
       `,
     )
     .join('\n--------------------------------------------\n');

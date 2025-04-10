@@ -1,9 +1,8 @@
 import readline from 'readline';
+import { type Meal, MealCategory } from '../types/meal';
+import { rl } from '../index';
 
 // Create a readline interface
-const rl = readline.createInterface({
-  input: process.stdin,
-});
 
 // Function to ask a question and return a promise
 function askQuestion(query: string): Promise<string> {
@@ -14,7 +13,7 @@ function askQuestion(query: string): Promise<string> {
 
 export async function getMealDetails() {
   const name = await askQuestion('What is the name of your meal?: ');
-  const category = await askQuestion(
+  const categoryInput = await askQuestion(
     'When do you eat this meal? (Breakfast/Lunch/Dinner): ',
   );
   const ingredients = await askQuestion(
@@ -28,7 +27,9 @@ export async function getMealDetails() {
 
   return {
     name,
-    category,
+    mealNumber: Number(Math.floor(Math.random() * 10000)),
+    id: Number(Math.floor(Math.random() * 10000)),
+    category: categoryInput as MealCategory,
     ingredients: ingredients.split(',').map((i) => i.trim()),
     prepTime: Number(prepTime),
     cookTime: Number(cookTime),
