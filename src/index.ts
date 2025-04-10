@@ -1,5 +1,7 @@
 import readline from 'readline';
 import { getFormattedMeals } from './services/mealService';
+import { getMealDetails } from './utils/getMealDetails';
+import { addMeal } from './utils/fileHandler';
 
 // Create an interface for input/output
 const rl = readline.createInterface({
@@ -42,6 +44,8 @@ async function handleMenuChoice(choice: string) {
       break;
     case '2':
       console.log('Adding a new meal...');
+      const newMeal = await getMealDetails();
+      await addMeal(newMeal);
       break;
     case '3':
       console.log('Generating a random meal...');
