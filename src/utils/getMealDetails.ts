@@ -14,12 +14,15 @@ export async function getMealDetails() {
   let category: MealCategory | undefined;
   while (!category) {
     const categoryInput = await askQuestion(
-      `When do you eat this meal?: 
-    1. Breakfast 
-    2. Lunch 
-    3. Dinner 
-    4. Snack 
-    5. Dessert`,
+      `\nWhen do you usually eat this meal?
+
+  1. Breakfast  
+  2. Lunch  
+  3. Dinner  
+  4. Snack  
+  5. Dessert
+
+👉 Please enter the number that matches the category (1-5): `,
     );
 
     const categoryMap: Record<string, MealCategory> = {
@@ -38,14 +41,14 @@ export async function getMealDetails() {
   }
 
   const ingredients = await askQuestion(
-    'Please enter ingredients (comma-separated): ',
+    '\nPlease enter ingredients (comma-separated): ',
   );
-  const prepTime = await askQuestion('Enter prep time (in minutes): ');
-  const cookTime = await askQuestion('Enter cook time (in minutes): ');
-  const servings = await askQuestion('How many people will this feed?: ');
-  const prepInstructions = await askQuestion('Enter prep instructions: ');
-  const cookingInstructions = await askQuestion('Enter cooking instructions: ');
-  const notes = await askQuestion('Any notes for this meal?: ');
+  const prepTime = await askQuestion('\nEnter prep time (in minutes): ');
+  const cookTime = await askQuestion('\nEnter cook time (in minutes): ');
+  const servings = await askQuestion('\nHow many people will this feed?: ');
+  const prepInstructions = await askQuestion('\nEnter prep instructions: ');
+  const cookingInstructions = await askQuestion('\nEnter cooking instructions: ');
+  const notes = await askQuestion('\nAny notes for this meal?: ');
 
   return {
     id: Number(Math.floor(Math.random() * 10000)),
