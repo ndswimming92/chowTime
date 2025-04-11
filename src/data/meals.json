@@ -1,180 +1,66 @@
 [
   {
     "id": 3055,
-    "name": "Test",
+    "name": "Banana Pancakes",
     "mealNumber": 7976,
     "category": "Breakfast",
-    "ingredients": [
-      "sdvebrr"
-    ],
+    "ingredients": ["Banana", "Eggs", "Flour"],
     "prepTime": 2,
     "cookTime": 34,
     "servings": 2,
-    "prepInstructions": "fvebb",
-    "cookingInstructions": "f gfnrf",
+    "prepInstructions": "Mash bananas and mix with other ingredients",
+    "cookingInstructions": "Cook on skillet until golden brown",
     "Notes": "Not much",
     "dateAdded": "2025-04-11T14:28:43.755Z"
   },
   {
-    "id": 3641,
-    "name": "Test 2",
-    "mealNumber": 3637,
-    "category": "",
-    "ingredients": [
-      "efvge"
-    ],
-    "prepTime": null,
-    "cookTime": null,
-    "servings": null,
-    "prepInstructions": "dve",
-    "cookingInstructions": "dve",
-    "Notes": "dv",
-    "dateAdded": "2025-04-11T14:50:42.683Z"
-  },
-  {
-    "id": 3924,
-    "name": "Test3",
-    "mealNumber": null,
-    "category": "",
-    "ingredients": [
-      "dvve"
-    ],
-    "prepTime": null,
-    "cookTime": null,
-    "servings": null,
-    "prepInstructions": "dbv",
-    "cookingInstructions": "dfvb",
-    "Notes": "dfbv",
-    "dateAdded": "2025-04-11T14:57:24.720Z"
-  },
-  {
-    "id": 9738,
-    "name": "Test4",
-    "category": "Dessert",
-    "ingredients": [
-      "ervre",
-      ""
-    ],
-    "prepTime": 23,
-    "cookTime": 0,
-    "servings": 3,
-    "prepInstructions": "sdcd",
-    "cookingInstructions": "decev",
-    "Notes": "dcdc",
-    "dateAdded": "2025-04-11T14:58:45.721Z"
-  },
-  {
-    "id": 9368,
-    "name": "Test5",
-    "mealNumber": 960,
-    "category": "3",
-    "ingredients": [
-      "sdv"
-    ],
-    "prepTime": null,
-    "cookTime": null,
-    "servings": null,
-    "prepInstructions": "cx ",
-    "cookingInstructions": "dc ",
-    "Notes": "xc ",
-    "dateAdded": "2025-04-11T15:05:08.897Z"
-  },
-  {
-    "id": 9117,
-    "name": "Test 55",
-    "mealNumber": 504,
-    "category": "Snack",
-    "ingredients": [
-      "fvrt"
-    ],
-    "prepTime": 23,
-    "cookTime": 2,
-    "servings": 2,
-    "prepInstructions": "dfvdf",
-    "cookingInstructions": "dv",
-    "Notes": "dfbrgb",
-    "dateAdded": "2025-04-11T15:07:56.638Z"
-  },
-  {
-    "id": 1460,
-    "name": "Test33",
-    "mealNumber": 278,
-    "category": "Lunch",
-    "ingredients": [
-      "dve"
-    ],
-    "prepTime": 23,
-    "cookTime": 30,
-    "servings": 3,
-    "prepInstructions": "None",
-    "cookingInstructions": "some",
-    "Notes": "Maybe",
-    "dateAdded": "2025-04-11T15:10:52.558Z"
-  },
-  {
-    "id": 8363,
-    "name": "Test 45",
-    "mealNumber": 891,
-    "category": "Lunch",
-    "ingredients": [
-      "water",
-      "bread",
-      "sugar"
-    ],
-    "prepTime": 10,
-    "cookTime": 30,
-    "servings": 4,
-    "prepInstructions": "Minimal",
-    "cookingInstructions": "more",
-    "Notes": "None",
-    "dateAdded": "2025-04-11T15:22:11.406Z"
-  },
-  {
     "id": 4704,
-    "name": "Test 12",
+    "name": "Chocolate Chip Cookies",
     "mealNumber": 703,
     "category": "Dessert",
-    "ingredients": [
-      "test 1",
-      "test 2",
-      "test 3"
-    ],
+    "ingredients": ["Flour", "Sugar", "Chocolate Chips"],
     "prepTime": 23,
     "cookTime": 33,
     "servings": 2,
-    "prepInstructions": "",
-    "cookingInstructions": "",
+    "prepInstructions": "Mix ingredients",
+    "cookingInstructions": "Bake until golden",
     "Notes": "fwe",
     "dateAdded": "2025-04-11T15:26:32.546Z"
   },
   {
+    "id": 8363,
+    "name": "Turkey Sandwich",
+    "mealNumber": 891,
+    "category": "Lunch",
+    "ingredients": ["Water", "Bread", "Sugar"],
+    "prepTime": 10,
+    "cookTime": 30,
+    "servings": 4,
+    "prepInstructions": "Minimal",
+    "cookingInstructions": "More",
+    "Notes": "None",
+    "dateAdded": "2025-04-11T15:22:11.406Z"
+  },
+  {
     "id": 2238,
-    "name": "Test44",
+    "name": "Mac & Cheese",
     "mealNumber": 504,
     "category": "Dinner",
-    "ingredients": [
-      "Water",
-      "milk",
-      "flour"
-    ],
+    "ingredients": ["Water", "Milk", "Flour"],
     "prepTime": 2,
     "cookTime": 22,
     "servings": 2,
-    "prepInstructions": "nonw",
-    "cookingInstructions": "dew",
-    "notes": "none",
+    "prepInstructions": "Nonw",
+    "cookingInstructions": "Dew",
+    "notes": "None",
     "dateAdded": "2025-04-11T15:40:22.208Z"
   },
   {
     "id": 7232,
-    "name": "Test 34",
+    "name": "Chicken Stir Fry",
     "mealNumber": 934,
     "category": "Dinner",
-    "ingredients": [
-      "Milk",
-      "water",
-      "Juice"
-    ],
+    "ingredients": ["Milk", "Water", "Juice"],
     "prepTime": 5,
     "cookTime": 20,
     "servings": 4,
@@ -182,5 +68,32 @@
     "cookingInstructions": "Some",
     "notes": "None",
     "dateAdded": "2025-04-11T15:44:41.696Z"
+  },
+  {
+    "id": 1460,
+    "name": "Grilled Cheese",
+    "mealNumber": 278,
+    "category": "Lunch",
+    "ingredients": ["Cheese", "Bread", "Butter"],
+    "prepTime": 23,
+    "cookTime": 30,
+    "servings": 3,
+    "prepInstructions": "None",
+    "cookingInstructions": "Some",
+    "Notes": "Maybe",
+    "dateAdded": "2025-04-11T15:10:52.558Z"
+  },
+  {
+    "id": 9738,
+    "name": "Brownie Bites",
+    "category": "Dessert",
+    "ingredients": ["Cocoa", "Sugar"],
+    "prepTime": 23,
+    "cookTime": 0,
+    "servings": 3,
+    "prepInstructions": "Sdcd",
+    "cookingInstructions": "Decev",
+    "Notes": "Dcdc",
+    "dateAdded": "2025-04-11T14:58:45.721Z"
   }
 ]

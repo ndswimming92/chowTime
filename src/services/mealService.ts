@@ -16,13 +16,13 @@ export async function getFormattedMeals(): Promise<string> {
       🕒 Prep Time: ${Meal.prepTime} mins
       🔥 Cook Time: ${Meal.cookTime} mins \n
       Ingredients: 
-      ${Meal.ingredients.join(', ')} \n
+          ${Meal.ingredients.join(', ')} \n
       Prep Instructions: 
-      ${Meal.prepInstructions} \n
+          ${Meal.prepInstructions} \n
       Cooking Instructions: 
-      ${Meal.cookingInstructions} \n
+          ${Meal.cookingInstructions} \n
       Notes: 
-      ${Meal.Notes || 'No notes available'} \n
+          ${Meal.Notes || 'No notes available'} \n
       `,
     )
     .join('\n--------------------------------------------\n\n');
