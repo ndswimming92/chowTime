@@ -18,6 +18,8 @@ export type Meal = {
   servings: number;
   prepInstructions: string;
   cookingInstructions: string;
+  Notes?: string;
+  dateAdded: Date;
 };
 
 export type MealInput = Omit<Meal, 'id' | 'mealNumber'>;
