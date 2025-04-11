@@ -47,21 +47,23 @@ export async function getMealDetails() {
   const cookTime = await askQuestion('\nEnter cook time (in minutes): ');
   const servings = await askQuestion('\nHow many people will this feed?: ');
   const prepInstructions = await askQuestion('\nEnter prep instructions: ');
-  const cookingInstructions = await askQuestion('\nEnter cooking instructions: ');
+  const cookingInstructions = await askQuestion(
+    '\nEnter cooking instructions: ',
+  );
   const notes = await askQuestion('\nAny notes for this meal?: ');
 
   return {
     id: Number(Math.floor(Math.random() * 10000)),
     name,
     mealNumber: Number(Math.floor(Math.random() * 1000)),
-    category: category || MealCategory.Breakfast,
+    category: category as MealCategory,
     ingredients: ingredients.split(',').map((i) => i.trim()),
     prepTime: Number(prepTime),
     cookTime: Number(cookTime),
     servings: Number(servings),
     prepInstructions,
     cookingInstructions,
-    notes: notes || 'No notes available',
+    notes: notes,
     dateAdded: new Date(),
   };
 }
