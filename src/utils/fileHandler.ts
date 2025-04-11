@@ -37,5 +37,5 @@ export async function addMeal(meal: Meal) {
 
   // Write back to the file
   await writeFile(filePath, JSON.stringify(meals, null, 2));
-  console.log('✅ Meal added successfully!');
+  console.log('\n✅ Meal added successfully! ✅');
 }

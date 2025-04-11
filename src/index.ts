@@ -43,14 +43,13 @@ async function handleMenuChoice(choice: string) {
       }
       break;
     case '2':
-      console.log('Adding a new meal...');
+      console.log('Adding a new meal...\n');
       try {
         const newMeal = await getMealDetails();
         await addMeal(newMeal);
       } catch (error) {
         console.error('❌ Failed to add meal:', error);
       }
-      askForChoice(); // 🔁 Show the menu again
       break;
     case '3':
       console.log('Generating a random meal...');
