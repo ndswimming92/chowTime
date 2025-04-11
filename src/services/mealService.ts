@@ -22,7 +22,7 @@ export async function getFormattedMeals(): Promise<string> {
       Cooking Instructions: 
           ${Meal.cookingInstructions} \n
       Notes: 
-          ${Meal.Notes || 'No notes available'} \n
+          ${Meal.notes || 'No notes available'} \n
       `,
     )
     .join('\n--------------------------------------------\n\n');
