@@ -62,7 +62,9 @@ async function handleMenuChoice(choice: string) {
       rl.close();
       return;
     default:
-      console.log('Invalid choice. Please enter a number between 1 & 5.');
+      console.error(
+        '❌ Invalid number selected. Please select a valid number: (1 - 5)',
+      );
       break;
   }
 
