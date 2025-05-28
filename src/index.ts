@@ -17,7 +17,7 @@ export function showMenu() {
   console.log('1. View All Meals');
   console.log('\x1b[92m2. Add a Meal');
   console.log('3. Generate Random Meal\x1b[0m');
-  console.log('\x1b[91m4. Delete a meal');
+  console.log('\x1b[91m4. Delete a Meal');
   console.log('5. Exit\x1b[0m');
   console.log('=========================');
   askForChoice();

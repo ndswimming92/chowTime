@@ -1,4 +1,4 @@
-import { type Meal, MealCategory } from '../types/meal';
+import { MealCategory } from '../types/meal';
 import { rl } from '../index';
 
 // Function to ask a question and return a promise
