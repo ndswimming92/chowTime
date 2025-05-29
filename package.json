@@ -4,22 +4,25 @@
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest",
+    "@types/pg": "^8.15.2",
     "prettier": "^3.5.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-"prettier": {
-  "semi": true,
-  "singleQuote": true,
-  "tabWidth": 2,
-  "printWidth": 80
-},
-"scripts": {
-  "format": "prettier --write ."
-},
-"lint-staged": {
-  "**/*.{js,ts,jsx,tsx,json,md}": "prettier --write"
-}
-
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "printWidth": 80
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "lint-staged": {
+    "**/*.{js,ts,jsx,tsx,json,md}": "prettier --write"
+  },
+  "dependencies": {
+    "pg": "^8.16.0"
+  }
 }

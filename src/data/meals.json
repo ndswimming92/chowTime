@@ -223,5 +223,23 @@
     "cookingInstructions": "None",
     "notes": "Some notes",
     "dateAdded": "2025-04-14T20:49:58.098Z"
+  },
+  {
+    "id": 9873,
+    "name": "Pizza",
+    "mealNumber": 416,
+    "category": "Lunch",
+    "ingredients": [
+      "crust",
+      "sauce",
+      "cheese"
+    ],
+    "prepTime": 5,
+    "cookTime": 15,
+    "servings": 4,
+    "prepInstructions": "minimal",
+    "cookingInstructions": "bake in oven",
+    "notes": "none",
+    "dateAdded": "2025-05-29T18:08:11.308Z"
   }
 ]
